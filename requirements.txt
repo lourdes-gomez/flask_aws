@@ -4,4 +4,5 @@ pandas
 scikit-learn
 sqlalchemy
 matplotlib
+psycopg2-binary
 
