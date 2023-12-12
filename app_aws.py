@@ -10,7 +10,7 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
 
 
-churro = "postgresql://postgres:password@database-2.c0tj9rzcjeux.eu-north-1.rds.amazonaws.com:5432/postgres"
+churro = "postgresql://postgres:password@database-1.c0tj9rzcjeux.eu-north-1.rds.amazonaws.com:5432/postgres"
 engine = create_engine(churro)
 
 with open("pipe_model.pkl",  "rb") as f:
