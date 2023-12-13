@@ -4,4 +4,4 @@ scikit-learn
 sqlalchemy
 matplotlib
 gunicorn
-psycogp2-binary
+psycopg2-binary
