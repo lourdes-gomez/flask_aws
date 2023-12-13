@@ -10,7 +10,7 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
 
 
-engine = create_engine("sqlite:///mydb.db")
+engine = create_engine('postgresql://fl0user:UMxwSPZAYd75@ep-shy-darkness-60582910.ap-southeast-1.aws.neon.fl0.io:5432/database?sslmode=require')
 
 with open("pipe_model.pkl",  "rb") as f:
     loaded_model = pickle.load(f)
